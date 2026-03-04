@@ -8,7 +8,7 @@ body {
     color: #222;
 }
 
-/* Header */
+/* Header (used only for index page) */
 header {
     background-color: #c62828;
     color: #fff;
@@ -54,6 +54,8 @@ nav ul li a {
     transition: background 0.3s ease;
 }
 
+/* Active link styling */
+nav ul li a.active,
 nav ul li a:hover {
     background-color: #e53935;
 }
@@ -65,6 +67,7 @@ main {
     padding: 0 20px;
 }
 
+/* Section Styling */
 section {
     background: #fff;
     margin-bottom: 30px;
